@@ -1,0 +1,45 @@
+li:hover{
+    border-bottom: 1px solid #fff;
+}
+li{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fa-bars{
+
+   
+    color: white;
+}
+a{
+    font-weight: bolder;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+        box-sizing: border-box;
+}
+body{
+    
+    /*background:url(../img/light-blue-background-full-hd-431954.jpg);
+    background-size: cover;
+    background-attachment: fixed;*/
+    font-family: new time roman;
+    min-height: 100vh;
+
+}
+.container, .imgcentre{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h1,h3{
+    text-align: center;
+    width: 100%;
+}
+.imgcentre{
+    margin-top: 80px;
+}
+

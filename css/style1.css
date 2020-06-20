@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+        box-sizing: border-box;
+}
+body{
+    
+    /*background:url(../img/light-blue-background-full-hd-431954.jpg);
+    background-size: cover;
+    background-attachment: fixed;*/
+    font-family: new time roman;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    //margin-top: 30%;
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: dodgerblue;
+}
+.input-group{
+    margin-top: 20px;
+}
+.input-group-addon{
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid dodgerblue;
+    background:transparent;
+    font-size: 20px;
+    color: red;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid dodgerblue;
+    font-size: 21px;
+    height: 19px;
+    color: dodgerblue;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 18px;
+    color:red;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.btn-primary{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    background: dodgerblue;
+}
+.btn-primary:hover{
+    background: white;
+    border-color: dodgerblue;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.fa-lock{
+font-size: 20px ;
+color: dodgerblue;
+margin-right: 5px;
+}
+.fa-user{
+font-size: 20px ;
+color: dodgerblue;
+margin-right: 5px;  
+}
+img{
+    position: relative;
+    left:50%;
+    transform:translateX(-50%);
+    margin-bottom: 30px;
+}
+
+
